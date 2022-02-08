@@ -54,15 +54,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // Left
         //        
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        XXX                  ,XXX               ,TD(DNC_PRT_SCRN)  ,TD(DNC_COPY_CUT)  ,KC_PASTE          ,KC_UNDO           ,KC_REDO           ,
+        XXX                ,  XXX               ,TD(DNC_PRT_SCRN)  ,TD(DNC_COPY_CUT)  ,KC_PASTE          ,KC_UNDO           ,KC_REDO           ,
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        GUI_T(KC_ESC)        ,KC_Q              ,KC_W              ,KC_E              ,KC_R              ,KC_T              ,KC_HOME           ,
+        GUI_T(KC_ESC)      ,  KC_Q              ,KC_W              ,KC_E              ,KC_R              ,KC_T              ,KC_HOME           ,
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        KC_WIN_CHANGE        ,KC_A              ,KC_S              ,ALT_T(KC_D)       ,CTL_T(KC_F)       ,KC_G              ,
+        KC_WIN_CHANGE      ,  KC_A              ,KC_S              ,ALT_T(KC_D)       ,CTL_T(KC_F)       ,KC_G              ,
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        KC_MS_WH_UP          ,KC_Z              ,KC_X              ,KC_UP             ,KC_V              ,KC_B              ,KC_END            ,
+        KC_MS_WH_UP        ,  KC_Z              ,KC_X              ,KC_UP             ,KC_V              ,KC_B              ,KC_END            ,
         //--------------- || --------------- || --------------- || --------------- || --------------- ||
-        KC_MS_WH_DOWN        ,XXX               ,KC_LEFT           ,KC_DOWN           ,SFT_T(KC_RIGHT),
+        KC_MS_WH_DOWN      ,  XXX               ,KC_LEFT           ,KC_DOWN           ,SFT_T(KC_RIGHT),
         //                                                                                            || --------------- || --------------- ||
                                                                                                          KC_ENTER,          XXX,
         //                                                                                                               || --------------- ||
@@ -72,21 +72,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         // Right
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        XXX                ,      XXX, XXX, XXX, XXX, XXX, XXX,
+        XXX                ,  XXX             , XXX              ,  XXX             , XXX              , XXX              , XXX,
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        XXX, KC_Y, KC_U, KC_I, KC_O, XXX, GUI_T(KC_ESC),
+        XXX                , KC_Y             , KC_U             , KC_I             , KC_O             , XXX              , GUI_T(KC_ESC),
         //                || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        KC_H, CTL_T(KC_J), ALT_T(KC_K), KC_L, XXX, XXX,
+                             KC_H             , CTL_T(KC_J)      , ALT_T(KC_K)      , KC_L             , XXX              , XXX,
         //--------------- || --------------- || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        XXX, KC_N, KC_M, KC_P, KC_C, XXX, XXX,
+        XXX                , KC_N             , KC_M             , KC_P             , KC_C             , XXX              , XXX,
         //                                   || --------------- || --------------- || --------------- || --------------- || --------------- ||
-        SFT_T(KC_BSPACE), KC_DELETE, XXX, XXX, XXX,
+                                                SFT_T(KC_BSPACE)   , KC_DELETE        , XXX              , XXX              , XXX,
         //--------------- || --------------- ||
-        VOL_DOWN, VOL_UP,
+        VOL_DOWN           , VOL_UP,
         //--------------- ||
         XXX,
         //--------------- || --------------- || --------------- ||
-          KC_LAN_CHANGE    , TG(1)            , LT(3, KC_ENTER)),
+        KC_LAN_CHANGE      , TG(1)            , LT(3, KC_ENTER)),
 
     [_hebrewLayer] = LAYOUT_ergodox(
         // Left
