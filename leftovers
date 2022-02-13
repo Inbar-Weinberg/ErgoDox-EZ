@@ -121,3 +121,41 @@
     XXX            , XXX              , XXX              
 
     ),
+
+
+
+// // Left
+// //---Row  1 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  2 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  3 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX , /*Extra */
+// //---Row  4 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  5 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,
+// //--- Thumb Cluster Top 2---//
+// /*1*/ XXX ,/*2*/ XXX ,
+// //--- Thumb Cluster Mid 1---//
+// /*1*/ XXX ,
+// //--- Thumb Cluster Bottom 3---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,//End
+
+// //Right
+// //---Row  1 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  2 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  3 ---//
+// /*Extra */ /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,
+// //---Row  4 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,/*7*/ XXX ,
+// //---Row  5 ---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,/*4*/ XXX ,/*5*/ XXX ,/*6*/ XXX ,
+// //--- Thumb Cluster Top 2---//
+// /*1*/ XXX ,/*2*/ XXX ,
+// //--- Thumb Cluster Mid 1---//
+// /*1*/ XXX ,
+// //--- Thumb Cluster Bottom 3---//
+// /*1*/ XXX ,/*2*/ XXX ,/*3*/ XXX ,//End
